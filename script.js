@@ -5,8 +5,13 @@ let produits = [
 ];
 let prochainId = 3;
 
+
 // À vous de jouer :
 // 1. Afficher les produits du tableau au chargement.
 // 2. Gérer l’ajout depuis le formulaire.
 // 3. Gérer le retrait du produit cliqué.
 // 4. Bonus : compteur, état vide et total.
+
+ const liste=document.querySelector('#modele-produit');
+ liste.replaceChildren();
+ 
